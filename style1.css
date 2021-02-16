@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(back.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar
+{
+    background: rgb(0,0,0,0.5);
+    height: 80px;
+}
+.logo
+{
+    margin: 10px 50px;
+    height: 60px;
+}
+.menu
+{
+    float: right;
+    list-style: none;
+    margin: 20px;    
+}
+.menu li
+{
+    display: inline-block;
+    margin: 10px 5px;
+}
+.menu li a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    transition: 0;
+}
+.menu li a:hover
+{
+    background: #fff;
+    transition: 4s;
+    color: #000;
+}
+.welcome
+{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    top: 50px;
+}
+.welcome h1
+{
+    font-size: 40px;
+    margin: 25px;
+}    
+p
+{
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+ul
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px; 
+    font-size: 18px;  
+    float: center;
+}
